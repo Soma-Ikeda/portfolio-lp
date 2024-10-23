@@ -96,7 +96,7 @@ const Contact = () => {
                         Soma Ikeda
                     </h3>
                     <p className={contactStyles.location}>
-                        🍁Burnaby, BC, Canada
+                        💃Malaga, Spain
                     </p>
                     <p className={contactStyles.contactIntroDetail}>
                         If you ever want to grab a coffee/bubble tea or just want a quick chat - you can find me on social media or you can send me a message here!
@@ -116,7 +116,7 @@ const Contact = () => {
                         </a>
 
                         <a
-                            href="https://github.com/Soma-dev0808"
+                            href="https://github.com/Soma-Ikeda"
                             target="_blank"
                             rel="noreferrer"
                         >
