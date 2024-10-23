@@ -155,15 +155,20 @@ const PortfolioDetail: NextPage = () => {
                         <div className={portfolioDetailStyles.descBox}>
                             <h3 className={portfolioDetailStyles.sectionSubTitle}>Links</h3>
                             <ul className={`${portfolioDetailStyles.ulListItems} ${portfolioDetailStyles.linkItems}`}>
-                                <li>
-                                    <a
-                                        href={portfolioLiveAppLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        Live Demo
-                                    </a>
-                                </li>
+                                {
+                                    portfolioLiveAppLink && (
+                                        <li>
+                                        <a
+                                            href={portfolioLiveAppLink}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            Live Demo
+                                        </a>
+                                    </li>
+                                    )
+                                }
+
 
                                 <li>
                                     <a
