@@ -70,7 +70,7 @@ const portfolioData: PortfolioData = {
       portfolioDesc:
         "<span style='color: var(--primaryClr)'>The real-time chat app</span> allows users to communicate with other users and check real-time status of other users in the same chat room. You can create or choose a chat room as well. \n <span style='color: var(--primaryClr)'>Built with</span> React, React-redux, Typescript, and CSS. Used Node.js and socket.io for handling real-time user status and text messaging.",
       portfolioId: "chatApp",
-      portfolioLiveAppLink: "https://real-time-chat-cc29e.web.app/",
+      portfolioLiveAppLink: "", // "https://real-time-chat-cc29e.web.app/",
       portfolioGitLink: "https://github.com/Soma-dev0808/react-typescript-chat",
       portfolioGifPath: "/assets/portfolioGif/chat_app.gif",
       portfolioImgPath: "/assets/portfolioImg/reactChatApp.png",
@@ -85,8 +85,7 @@ const portfolioData: PortfolioData = {
       ],
       difficultPart:
         "<span style='color: var(--primaryClr)'>To dynamically change hat room information</span> when the user switches rooms, I needed to think about how I could simply switch data. The chat page can be divided into three parts which are a sidebar we can check other chat rooms, a chat room header for displaying the chat room names and users who joined the room and a chat messages list. Data in these sections are fetched based on the chat room name, so I wanted to observe it and, when it changed, fetch the next room information. \n <span style='color: var(--primaryClr)'>For this solution,</span> I set a room name in the URL, and whenever the room name in the URL is changed, I made it to fetch data for the next page.",
-      other:
-        "If you want to try this applcation without registration, you can use the test accounts below. \n \n Account1 Email: <span style='color: var(--primaryClr)'>test1.test@test.com</span> Password: <span style='color: var(--primaryClr)'>test1test1234</span> \n Account2 Email: <span style='color: var(--primaryClr)'>test2.test@test.com</span> Password: <span style='color: var(--primaryClr)'>test2test1234</span>",
+      other: "",
       prevPortfolio: { pid: "spotifyApp", pname: "Spotify App" },
       nextPortfolio: { pid: "concentrationApp", pname: "Concentration" },
     },
